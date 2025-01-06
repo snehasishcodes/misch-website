@@ -1,8 +1,10 @@
 import Navbar from "@/components/navbar";
 import Particles from "@/components/ui/particles";
 import { Spotlight } from "@/components/ui/spotlight";
+import GridPattern from "@/components/ui/grid-pattern";
 import Link from "next/link";
 import { FaBagShopping } from "react-icons/fa6";
+import { cn } from "@/lib/utils";
 
 export default function Landing() {
 	return (
@@ -29,6 +31,7 @@ export default function Landing() {
 				className="absolute top-60"
 				fill={"#fff"}
 			/>
+
 			<Particles
 				className="absolute w-[150px] md:w-[400px] h-[200px] left-0 bottom-32 md:bottom-auto z-0"
 				quantity={15}
@@ -37,6 +40,16 @@ export default function Landing() {
 				vx={0.1}
 				vy={0.1}
 				refresh
+			/>
+
+			<GridPattern
+				width={100}
+				height={100}
+				x={-1}
+				y={-1}
+				className={cn(
+					"[mask-image:linear-gradient(to_bottom_right,rgba(255,255,255,0.5),transparent,transparent)] ",
+				)}
 			/>
 		</main>
 	)
