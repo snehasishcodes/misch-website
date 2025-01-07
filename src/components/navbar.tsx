@@ -1,14 +1,19 @@
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-export default function Navbar() {
+export default function Navbar({ className }: { className?: string }) {
     return (
-        <nav className="absolute top-10 left-0 right-0 w-full flex flex-row justify-between items-center gap-6 px-4 md:px-20">
-            <Link href="https://instagram.com/try.misch">
+        <nav className={cn("absolute top-10 left-0 right-0 w-full flex flex-row justify-between items-center gap-6 px-4 md:px-20", className)}>
+            <Link href="/">
                 <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">home</h2>
             </Link>
 
             <Link href="https://instagram.com/try.misch">
                 <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">instagram</h2>
+            </Link>
+
+            <Link href="/contact">
+                <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">contact</h2>
             </Link>
 
             <Link href="/pricing">

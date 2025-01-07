@@ -5,7 +5,7 @@ import Loading from "@/components/loading";
 
 export const metadata: Metadata = {
 	title: "misch",
-	description: "Typescript, shadcn/ui, Framer Motion, GSAP, Next.js 15",
+	description: "we provide low-cost, high-performance websites for your businesses.",
 };
 
 const font = Syne({ subsets: ["latin"] });

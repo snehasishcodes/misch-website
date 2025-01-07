@@ -1,5 +1,4 @@
 import gsap from "gsap";
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 
 export const animatePageIn = () => {
     const loadingPage = document.getElementById("loading-page");
@@ -15,7 +14,7 @@ export const animatePageIn = () => {
                 opacity: 0,
                 display: "none",
                 duration: 1,
-                delay: 2
+                delay: 3
             })
     }
 }

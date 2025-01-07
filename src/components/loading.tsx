@@ -1,6 +1,7 @@
 "use client";
 
 import { Progress } from "@/components/ui/progress";
+import MorphingText from "@/components/ui/morphing-text";
 import { animatePageIn } from "@/lib/animations";
 import { useEffect, useState } from "react";
 
@@ -22,7 +23,13 @@ export default function Loading() {
     return (
         <div id="loading-page" className="fixed inset-0 z-50 bg-black text-white h-screen w-screen flex flex-col justify-center items-center gap-4">
             <div className="w-full sm:w-[400px] flex flex-col justify-center items-center gap-4">
-                <h2 className="text-6xl font-medium">misch</h2>
+                <MorphingText
+                    className="text-6xl font-medium"
+                    texts={[
+                        "loading",
+                        "misch"
+                    ]}
+                />
                 <span>{value}%</span>
 
                 <Progress value={value} className="h-[6px]" />
