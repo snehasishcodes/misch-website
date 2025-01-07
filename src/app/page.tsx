@@ -21,7 +21,7 @@ export default function Landing() {
 				we provide low-cost, high-performance, hassle-free <span className="border">websites</span> for your business. websites that do everything you need it to. websites that look exactly how you want them to. <span className="text-transparent select-none">filler filler filler</span>
 			</p>
 
-			<Link href="/ecommerce">
+			<Link href="/pricing">
 				<span className="text-sm sm:text-base border border-white/25 bg-white/10 cursor-pointer px-4 py-1 rounded-full flex items-center gap-2 uppercase">
 					<FaBagShopping /> e-commerce website @ ₹1499
 				</span>
