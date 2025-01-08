@@ -27,7 +27,7 @@ export default function Contact() {
 
         const params = {
             username: name ?? "No Name",
-            content: `<@741292272661954651>`,
+            content: `@everyone New Contact`,
             embeds: [
                 {
                     fields: [
