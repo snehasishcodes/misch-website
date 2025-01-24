@@ -6,6 +6,11 @@ import Loading from "@/components/loading";
 export const metadata: Metadata = {
 	title: "lacerity",
 	description: "genz developers building genz stuff.",
+	icons: {
+		icon: "/icon.png",
+		shortcut: "/icon.png",
+		apple: "/icon.png"
+	},
 };
 
 const font = Syne({ subsets: ["latin"] });
