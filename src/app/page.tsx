@@ -3,7 +3,7 @@ import Particles from "@/components/ui/particles";
 import { Spotlight } from "@/components/ui/spotlight";
 import GridPattern from "@/components/ui/grid-pattern";
 import Link from "next/link";
-import { FaBagShopping } from "react-icons/fa6";
+import { SiDiscord } from "react-icons/si";
 import { cn } from "@/lib/utils";
 
 export default function Landing() {
@@ -12,18 +12,18 @@ export default function Landing() {
 			<Navbar />
 
 			<h2
-				className="w-full text-center text-[6rem] sm:text-[10rem] md:text-[16rem] font-bold absolute bottom-32 md:bottom-2 leading-none bg-gradient-to-r from-white to-transparent text-transparent bg-clip-text"
+				className="w-full text-center text-[6rem] sm:text-[10rem] md:text-[12rem] lg:text-[16rem] font-bold absolute bottom-32 md:bottom-2 leading-none bg-gradient-to-r from-white to-transparent text-transparent bg-clip-text"
 			>
-				misch
+				lacerity
 			</h2>
 
-			<p className="absolute top-[25%] text-[clamp(0.8rem,3vw,1.125rem)] uppercase w-[325px] sm:w-[450px] md:w-[600px] text-justify">
-				we provide low-cost, high-performance, hassle-free <span className="border">websites</span> for your business. websites that do everything you need it to. websites that look exactly how you want them to. <span className="text-transparent select-none">filler filler filler</span>
+			<p className="absolute top-[25%] text-[clamp(1.4rem,3vw,1.8rem)] uppercase w-[325px] sm:w-[450px] md:w-[600px] text-center">
+				genz developers building genz stuff. 
 			</p>
 
-			<Link href="/pricing">
+			<Link href="/discord">
 				<span className="text-sm sm:text-base border border-white/25 bg-white/10 cursor-pointer px-4 py-1 rounded-full flex items-center gap-2 uppercase">
-					<FaBagShopping /> e-commerce website @ ₹1499
+					<SiDiscord /> join the community
 				</span>
 			</Link>
 

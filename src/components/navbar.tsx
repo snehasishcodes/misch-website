@@ -8,16 +8,16 @@ export default function Navbar({ className }: { className?: string }) {
                 <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">home</h2>
             </Link>
 
-            <Link href="https://instagram.com/try.misch">
+            <Link href="https://instagram.com/laceritycom">
                 <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">instagram</h2>
             </Link>
 
-            <Link href="/contact">
-                <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">contact</h2>
+            <Link href="https://discord.gg/PGSMXHBCEP">
+                <h2 className="text-lg text-[rgba(255,255,255,0.6)] hover:text-white cursor-pointer duration-700 uppercase">discord</h2>
             </Link>
 
-            <Link href="/pricing">
-                <h2 className="text-lg text-[rgba(255,255,255,0.7)] cursor-pointer uppercase hover:text-white duration-700">pricing</h2>
+            <Link href="#">
+                <h2 className="text-lg text-[rgba(255,255,255,0.7)] cursor-pointer uppercase hover:text-white duration-700">soon</h2>
             </Link>
         </nav>
     )

@@ -4,8 +4,8 @@ import { Syne } from "next/font/google";
 import Loading from "@/components/loading";
 
 export const metadata: Metadata = {
-	title: "misch",
-	description: "we provide low-cost, high-performance websites for your businesses.",
+	title: "lacerity",
+	description: "genz developers building genz stuff.",
 };
 
 const font = Syne({ subsets: ["latin"] });

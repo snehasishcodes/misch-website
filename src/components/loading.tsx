@@ -27,7 +27,7 @@ export default function Loading() {
                     className="text-6xl font-medium"
                     texts={[
                         "loading",
-                        "misch"
+                        "lacerity"
                     ]}
                 />
                 <span>{value}%</span>
